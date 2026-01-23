@@ -15,6 +15,11 @@ import { LogOutIcon } from "lucide-react"
 import NavItems from "./NavItems"
 
 
+/**
+ * Render a user avatar button that opens a dropdown showing user details, a logout action, and responsive navigation items.
+ *
+ * @returns A React element containing the dropdown menu with the user's avatar and name as the trigger, a header with name and email, a logout menu item that navigates to the sign-in page, and a mobile-only navigation section.
+ */
 function UserDropdown() {
   const router = useRouter();
 
